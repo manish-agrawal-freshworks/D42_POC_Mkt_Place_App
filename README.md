@@ -1,6 +1,6 @@
-## Your First App
+## D42_POC_Mkt_Place_App
 
-This app displays the name of the requester of a Freshservice ticket in the ticket_sidebar placeholder
+This app contains the change tag functionality of an asset inside Freshservice ticket in the ticket_sidebar placeholder
 
 ### Files and Folders
     .
