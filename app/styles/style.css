@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*::before {
+  box-sizing: inherit;
+}
+
+.app-body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+img {
+  max-width: 50px;
+}
+
+.container {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+#inputTagName {
+  padding: 6px 16px;
+}
+
+#btnChangeTagName {
+  cursor: pointer;
+  padding: 5px;
+}
