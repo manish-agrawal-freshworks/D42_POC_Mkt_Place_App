@@ -1,0 +1,8 @@
+.report.json
+digest.md5
+.fdk*
+log
+coverage
+dist
+node_modules
+.DS_Store

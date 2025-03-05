@@ -24,10 +24,15 @@ function renderContactName() {
 
   const inputTag = document.getElementById('inputTagName');
   const changeTagBtn = document.getElementById('btnChangeTagName');
-  changeTagBtn.addEventListener('click', function (event) {
-    const targetValue = event.currentTarget.dataset.target;
+  changeTagBtn.addEventListener('click', function () {
+    // const targetValue = event.currentTarget.dataset.target;
     const inputValue = inputTag.value;
       client.interface.trigger('updateAssetFields', { id: 'tagName', text: inputValue });
+
+    //   client.interface.trigger("showModal", { 
+    //     title: "Clone Asset", 
+    //     template: "templates/modal.html"
+    // });
   });
 }
 
